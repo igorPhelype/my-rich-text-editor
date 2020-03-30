@@ -13,13 +13,16 @@ class MyTextEditor extends React.Component {
         this.setState({value})
     }
 
-    onKeyDown = (e, change) => {
+    onKeyDown = (e, editor, next) => {
         if(!e.ctrlKey){
-            return;
+            return next();
         }
         e.preventDefault();
-        keyMap[e.key] && change.toggleMark(keyMap[e.key]);
-        return true;
+        if(Boolean(keyMap[e.key])){
+            editor.toggleMark(keyMap[e.key]);
+            return true;
+        }
+        return false;
     }
 
     renderMark = (props) => {
