@@ -5,11 +5,7 @@ import { MyTextEditor } from './components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <MyTextEditor />
-      </header>
-    </div>
+    <MyTextEditor />
   );
 }
 
