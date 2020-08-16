@@ -1,3 +1,3 @@
 ## my-rich-text-editor
 
-Deployed on Netlify: https://loving-easley-43de58.netlify.app/
+Deployed on Netlify: https://my-richtext-editor.netlify.app/
