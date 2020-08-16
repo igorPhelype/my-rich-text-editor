@@ -13,7 +13,11 @@ function App() {
         <div className="logo"><img src="logo.png" /></div>
       </nav>
       <div className="App-body">
-        <MyTextEditor />
+        <div className="container">
+          <span className={'small-text'}>Please,</span>
+          <span className={'big-text'}>Write something...</span>
+          <MyTextEditor />
+        </div>
       </div>
     </>
   );
