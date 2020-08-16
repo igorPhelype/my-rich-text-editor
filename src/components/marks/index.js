@@ -1,6 +1,5 @@
 import BoldMark from "./BoldMark";
 import ItalicMark from "./ItalicMark";
-import StrokeMark from "./StrokeMark";
 import CodeMark from "./CodeMark";
 
 import {bold} from 'react-icons-kit/feather/bold';

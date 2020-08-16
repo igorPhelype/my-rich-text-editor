@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { MyTextEditor } from './components';
 /*
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
       <nav className="Header">
-        <div className="logo"><img src="logo.png" /></div>
+        <div className="logo"><img alt="logo" src="logo.png" /></div>
       </nav>
       <div className="App-body">
         <div className="container">

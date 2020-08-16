@@ -28,7 +28,7 @@ class MyTextEditor extends React.Component {
         return false;
     }
 
-    onMarkClick = (type) => (e = new Event) => {
+    onMarkClick = (type) => (e = new Event()) => {
         e.preventDefault();
         const change = this.editor.toggleMark(type);
         this.onChange(change);
